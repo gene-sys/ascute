@@ -1,0 +1,5 @@
+The data collected from remote nodes accounting (primary sensors - flow meters, heat meters, etc.) in files of various formats (Access, text, etc.), provided by equipment suppliers  through a modem connection, and in some cases through the radio modems.
+
+I developed SOFTWARE (server.exe), which handles obtained from the primary sensor data and automatically sends them into an orderly form in the MySQL database on the server. In addition, it SOFTWARE via IP Protocol accepts and processes requests of users, if they want to receive the data directly, and transmit to them the results of their work.
+
+Also, I developed SOFTWARE - graphical user interface (felse.exe), allowing employees to receive interest to the user data (as of MySQL database, and directly through the IP Protocol from THE server.exe), build schedules, control of energy consumption and to perform other necessary control technology functions.
