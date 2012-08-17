@@ -1,0 +1,212 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\руководство.txt=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\chs1.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\chs2.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\DEFAULT.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\DEFH.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\EVENTS.LOG=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\first.dsn=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\HV.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEW.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWH.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWZ.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWZH.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NODE.INI=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\OPA.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\OPAH.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PAR.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PARH.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PATTERN.INI=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\SET.INI=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\sut1.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\sut2.PTN=
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\USERS.LST=
+
+[Package|Standard Setup Package 1|Files Removed]
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\Server.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+D:\WINDOWS\system32\msjet40.dll=Yes
+D:\WINDOWS\system32\msjter40.dll=Yes
+D:\WINDOWS\system32\msjint40.dll=Yes
+D:\WINDOWS\system32\vbajet32.dll=Yes
+D:\WINDOWS\system32\expsrv.dll=Yes
+D:\WINDOWS\system32\mswstr10.dll=Yes
+D:\WINDOWS\system32\mswdat10.dll=Yes
+D:\WINDOWS\system32\msrd2x40.dll=Yes
+D:\WINDOWS\system32\msrd3x40.dll=Yes
+D:\WINDOWS\system32\msrepl40.dll=Yes
+D:\WINDOWS\system32\msjtes40.dll=Yes
+D:\WINDOWS\system32\VB5DB.DLL=Yes
+D:\WINDOWS\system32\msstdfmt.dll=Yes
+D:\WINDOWS\system32\mswinsck.ocx=Yes
+D:\WINDOWS\system32\TRAYCTL.OCX=Yes
+D:\WINDOWS\system32\MSADODC.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\руководство.txt=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\chs1.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\chs2.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\DEFAULT.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\DEFH.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\EVENTS.LOG=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\first.dsn=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\HV.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEW.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWH.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWZ.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWZH.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NODE.INI=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\OPA.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\OPAH.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PAR.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PARH.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PATTERN.INI=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\SET.INI=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\sut1.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\sut2.PTN=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\USERS.LST=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\Server.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+D:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+D:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+D:\WINDOWS\system32\mswinsck.ocx=$(WinSysPath)
+D:\WINDOWS\system32\TRAYCTL.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\руководство.txt=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\chs1.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\chs2.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\DEFAULT.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\DEFH.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\EVENTS.LOG=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\first.dsn=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\HV.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEW.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWH.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWZ.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWZH.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NODE.INI=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\OPA.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\OPAH.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PAR.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PARH.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PATTERN.INI=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\SET.INI=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\sut1.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\sut2.PTN=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\USERS.LST=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\Server.exe=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\руководство.txt=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\chs1.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\chs2.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\DEFAULT.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\DEFH.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\EVENTS.LOG=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\first.dsn=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\HV.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEW.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWH.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWZ.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NEWZH.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\NODE.INI=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\OPA.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\OPAH.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PAR.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PARH.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\PATTERN.INI=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\SET.INI=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\sut1.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\sut2.PTN=No
+C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\USERS.LST=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=MWSServer
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=MWSServer
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|MWSServer]
+Icon1=Server.exe
+Title1=MWSServer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\Package
+ProjectFolder=C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server
+ServerSideCab=
+File1=C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\Package\setup.exe
+File2=C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\Package\Setup.Lst
+File3=C:\Мои документы\программы\VB50Projects\energy uchet\felse\Server\Package\Server.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

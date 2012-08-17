@@ -1,0 +1,428 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Package
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=Yes
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+D:\WINNT\SYSTEM32\wininet.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+D:\WINNT\SYSTEM32\MSCOMCTL.OCX=
+D:\WINNT\SYSTEM32\MSWINSCK.OCX=
+D:\WINNT\SYSTEM32\MSBIND.DLL=
+D:\WINNT\SYSTEM32\MSSTDFMT.DLL=
+D:\WINNT\SYSTEM32\scrrun.dll=
+D:\WINNT\SYSTEM32\MSCOMCT2.OCX=
+
+[Package|Dep File 1|Files Added]
+c:\мои документы\программы\vb50projects\klient\_felse.v12\client\setting.dsn=
+c:\мои документы\программы\vb50projects\klient\_felse.v12\client\users=
+c:\мои документы\программы\vb50projects\klient\_felse.v12\client\tempbase.csv=
+c:\мои документы\программы\vb50projects\klient\_felse.v12\client\vzljot_csv.dsn=
+c:\мои документы\программы\vb50projects\klient\_felse.v12\client\settings.mdb=
+
+[Package|Dep File 1|Files Removed]
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Dep File 1|Files In Project]
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\FELSE.EXE=Yes
+D:\WINNT\SYSTEM32\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\SYSTEM32\MSDBRPTR.DLL=Yes
+D:\WINNT\SYSTEM32\MSSTDFMT.DLL=Yes
+D:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+D:\WINNT\SYSTEM32\MSBIND.DLL=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+D:\WINNT\SYSTEM32\MSJET35.DLL=Yes
+D:\WINNT\SYSTEM32\MSJTER35.DLL=Yes
+D:\WINNT\SYSTEM32\MSJINT35.DLL=Yes
+D:\WINNT\SYSTEM32\vbajet32.dll=Yes
+D:\WINNT\SYSTEM32\expsrv.dll=Yes
+D:\WINNT\SYSTEM32\MSRD2X35.DLL=Yes
+D:\WINNT\SYSTEM32\MSREPL35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\WINNT\SYSTEM32\VB5DB.DLL=Yes
+D:\WINNT\SYSTEM32\ProgBar.ocx=Yes
+D:\WINNT\SYSTEM32\MSWINSCK.OCX=Yes
+D:\WINNT\SYSTEM32\MSADODC.OCX=Yes
+D:\WINNT\SYSTEM32\MSDATGRD.OCX=Yes
+D:\WINNT\SYSTEM32\MSCOMCTL.OCX=Yes
+D:\WINNT\SYSTEM\Tabctl32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\setting.dsn=Yes
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Users=Yes
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Tempbase.csv=Yes
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\vzljot_csv.dsn=Yes
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\settings.mdb=Yes
+D:\WINNT\SYSTEM32\wininet.dll=Yes
+D:\WINNT\SYSTEM32\scrrun.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+D:\WINNT\SYSTEM32\COMDLG32.OCX=Yes
+D:\WINNT\SYSTEM32\MSTEXT35.DLL=Yes
+D:\Program Files\Common Files\System\ADO\msado15.dll=Yes
+D:\Program Files\Common Files\System\ADO\msado25.tlb=Yes
+D:\WINNT\SYSTEM32\MSCOMCT2.OCX=Yes
+D:\WINNT\SYSTEM32\MSCHRT20.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\FELSE.EXE=$(AppPath)
+D:\WINNT\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+D:\WINNT\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+D:\WINNT\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSRD2X35.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+D:\WINNT\SYSTEM32\ProgBar.ocx=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSWINSCK.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSADODC.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSDATGRD.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM\Tabctl32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\setting.dsn=$(AppPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Users=$(AppPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Tempbase.csv=$(AppPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\vzljot_csv.dsn=$(AppPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\settings.mdb=$(AppPath)
+D:\WINNT\SYSTEM32\wininet.dll=$(WinSysPath)
+D:\WINNT\SYSTEM32\scrrun.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Common Files\System\ADO\msado15.dll=$(CommonFilesSys)\ADO
+D:\Program Files\Common Files\System\ADO\msado25.tlb=$(CommonFilesSys)\ADO
+D:\WINNT\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSCHRT20.OCX=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\FELSE.EXE=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\setting.dsn=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Users=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Tempbase.csv=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\vzljot_csv.dsn=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\settings.mdb=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=FELSE
+
+[Package|Dep File 1|IconGroups]
+Group0=FELSE
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 1|FELSE]
+Icon1=FELSE.exe
+Title1=FELSE
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=FELSE.CAB
+DepCabRun=FELSE.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Package
+ProjectFolder=C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client
+ServerSideCab=
+File1=C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Package\FELSE.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Мои документы\программы\VB50Projects\energy uchet\ascute\package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+setting.dsn=C:\Мои документы\программы\VB50Projects\energy uchet\ascute\setting.dsn
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\WINNT\SYSTEM32\wininet.dll=
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\ProgBar.ocx=
+C:\WINDOWS\SYSTEM32\wininet.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+D:\WINNT\SYSTEM32\MSCOMCTL.OCX=
+D:\WINNT\SYSTEM32\MSWINSCK.OCX=
+D:\WINNT\SYSTEM32\MSBIND.DLL=
+D:\WINNT\SYSTEM32\MSSTDFMT.DLL=
+D:\WINNT\SYSTEM32\scrrun.dll=
+D:\WINNT\SYSTEM32\MSCOMCT2.OCX=
+C:\WINDOWS\SYSTEM32\scrrun.dll=
+D:\WINDOWS\system32\mscomct2.ocx=
+D:\WINDOWS\system32\mscomctl.ocx=
+D:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\мои документы\программы\vb50projects\energy uchet\ascute\setting.dsn=
+c:\мои документы\программы\vb50projects\energy uchet\ascute\users=
+c:\мои документы\программы\vb50projects\energy uchet\ascute\tempbase.csv=
+c:\мои документы\программы\vb50projects\energy uchet\ascute\vzljot_csv.dsn=
+c:\мои документы\программы\vb50projects\energy uchet\ascute\settings.mdb=
+c:\мои документы\программы\vb50projects\energy uchet\ascute\tempgraf.csv=
+c:\мои документы\программы\vb50projects\energy uchet\ascute\mysqlenergy.dsn=
+
+[Package|Standard Setup Package 1|Files Removed]
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\FELSE.EXE=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\setting.dsn=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\Users=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\Tempbase.csv=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\vzljot_csv.dsn=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\settings.mdb=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\tempgraf.csv=Yes
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\MySqlEnergy.dsn=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\wininet.dll=Yes
+D:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+D:\WINDOWS\system32\msstdfmt.dll=Yes
+D:\WINDOWS\system32\scrrun.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+D:\WINDOWS\system32\MSBIND.DLL=Yes
+D:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+D:\WINDOWS\system32\mswinsck.ocx=Yes
+D:\WINDOWS\system32\MSADODC.OCX=Yes
+D:\WINDOWS\system32\msdatgrd.ocx=Yes
+D:\WINDOWS\system32\mscomctl.ocx=Yes
+D:\WINDOWS\system32\tabctl32.ocx=Yes
+D:\WINDOWS\system32\comdlg32.ocx=Yes
+D:\WINDOWS\system32\mscomct2.ocx=Yes
+D:\WINDOWS\system32\MSCHRT20.OCX=Yes
+D:\WINDOWS\system32\ProgBar.ocx=Yes
+D:\WINDOWS\system32\msdatlst.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\FELSE.EXE=$(AppPath)
+D:\WINNT\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+D:\WINNT\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+D:\WINNT\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSRD2X35.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+D:\WINNT\SYSTEM32\ProgBar.ocx=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSWINSCK.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSADODC.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSDATGRD.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM\Tabctl32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\setting.dsn=$(AppPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Users=$(AppPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Tempbase.csv=$(AppPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\vzljot_csv.dsn=$(AppPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\settings.mdb=$(AppPath)
+D:\WINNT\SYSTEM32\wininet.dll=$(WinSysPath)
+D:\WINNT\SYSTEM32\scrrun.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\WINNT\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+D:\WINNT\SYSTEM32\MSCHRT20.OCX=$(WinSysPath)
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\tempgraf.csv=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\FELSE.EXE=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\wininet.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao2535.tlb=$(MSDAOPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCHRT20.OCX=$(WinSysPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\ProgBar.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\setting.dsn=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\Users=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\Tempbase.csv=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\vzljot_csv.dsn=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\settings.mdb=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\tempgraf.csv=$(AppPath)
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\MySqlEnergy.dsn=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+D:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+D:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+D:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+D:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+D:\WINDOWS\system32\mswinsck.ocx=$(WinSysPath)
+D:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+D:\WINDOWS\system32\msdatgrd.ocx=$(WinSysPath)
+D:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+D:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+D:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+D:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+D:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+D:\WINDOWS\system32\ProgBar.ocx=$(WinSysPath)
+D:\WINDOWS\system32\msdatlst.ocx=$(WinSysPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\FELSE.EXE=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\setting.dsn=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Users=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\Tempbase.csv=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\vzljot_csv.dsn=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\settings.mdb=No
+C:\Мои документы\программы\VB50Projects\Klient\_felse.v12\Client\tempgraf.csv=No
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\FELSE.EXE=No
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\setting.dsn=No
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\Users=No
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\Tempbase.csv=No
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\vzljot_csv.dsn=No
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\settings.mdb=No
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\tempgraf.csv=No
+C:\Мои документы\программы\VB50Projects\energy uchet\ascute\MySqlEnergy.dsn=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=FELSE
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=FELSE
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|FELSE]
+Icon1=FELSE.exe
+Title1=FELSE
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Мои документы\программы\VB50Projects\energy uchet\ascute\package
+ProjectFolder=C:\Мои документы\программы\VB50Projects\energy uchet\ascute
+ServerSideCab=
+File1=C:\Мои документы\программы\VB50Projects\energy uchet\ascute\package\setup.exe
+File2=C:\Мои документы\программы\VB50Projects\energy uchet\ascute\package\Setup.Lst
+File3=C:\Мои документы\программы\VB50Projects\energy uchet\ascute\package\FELSE.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

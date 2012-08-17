@@ -1,0 +1,268 @@
+' ActiveX объект для работы с сервером на котром находятся таблицы архивов узлов
+'
+'Dim WithEvents mcnnMain As ADODB.Connection ' подконнектиться базам
+Dim WS As dao.Workspace
+Dim mcnnUnits As dao.Database ' подконнектиться базам
+Dim mrstMain As dao.Recordset  ' подключение к служебной таблице
+Dim mrstUnits As dao.Recordset ' подключение к архиву узла
+'
+Dim mstrServer As String
+Dim mstrDataBase As String
+Dim mstrTable As String
+Dim mstrSummer As Boolean
+Dim mstrHour As Boolean
+Dim blTP As Boolean
+'
+Private Sub Command1_Click()
+On Error GoTo C1Click
+mstrServer = Text1.Text
+mstrDataBase = Text2.Text
+mstrTable = "select ИмяУзла, Метка, ИмяТаблицыЧасовой, ИмяТаблицыСуточной from " & Text3.Text & ";"
+'Set mrstMain =
+'mcnnUnits.Execute mstrTable
+blTP = True
+PrBar1.CustomCaption = "Ждите..."
+OpenRecordset
+Data2.Refresh
+blTP = False
+PrBar1.Value = 1
+PrBar1.CustomCaption = ""
+Exit Sub
+C1Click:
+MsgBox Err.Number & "->" & Err.Description
+End Sub
+
+'-----------------------------------
+mrstUnits.Close
+mcnnUnits.Close
+
+WS.Close
+
+Set mrstUnits = Nothing
+
+Set mcnnUnits = Nothing
+
+Set WS = Nothing
+Data3.DatabaseName = ""
+Data3.RecordSource = ""
+Data3.Refresh
+Set DBGrid1.DataSource = Nothing
+DBGrid1.ReBind
+'-----------------------------------
+' для оформления внешнего вида формы
+Private Sub Form_Paint()
+
+'объявление переменных
+Dim lY As Long
+Dim lScaleHeight As Long
+Dim lScaleWidth As Long
+
+'единицу измерения устанавливаем равной пикселу
+ScaleMode = vbPixels
+'получаем кол-во пикселов по высоте
+lScaleHeight = ScaleHeight
+'получаем кол-во пикселов по ширине
+lScaleWidth = ScaleWidth
+'устанавливаем стиль заливки и рисования
+DrawStyle = vbInvisible
+FillStyle = vbFSSolid
+
+'запускаем цикл закраски
+For lY = 0 To lScaleHeight
+'закрашиваем
+FillColor = RGB(150 - (lY * 150) \ lScaleHeight, 150, 150 - (lY * 50) \ lScaleHeight)
+Line (-1, lY - 1)-(lScaleWidth, lY + 1), , B
+Next lY
+
+End Sub
+'
+'Private Sub Text2_Change()
+'On Error GoTo TC2_err
+'WritePrivateProfileString "Setup", "Database", Text2.Text, App.Path & "/set.ini"  ' Записываем в раздел  переменную
+'Call WriteParameters("PathDatabase", Text2.Text)
+'Exit Sub
+'TC2_err:
+'    MsgBox Err.Number & "->" & Err.Description
+'    Resume Next
+'End Sub
+'
+'Private Sub Text3_Change()
+'On Error GoTo TC3_err
+'WritePrivateProfileString "Setup", "Table", Text3.Text, App.Path & "/set.ini"  ' Записываем в раздел  переменную
+'Call WriteParameters("NameTable", Text3.Text)
+'Exit Sub
+'TC3_err:
+'    MsgBox Err.Number & "->" & Err.Description
+'    Resume Next'
+'
+'End Sub
+'
+'Private Sub Text7_Change()
+'On Error GoTo TC7_err
+'WritePrivateProfileString "Setup", "Datasource", Text7.Text, App.Path & "/set.ini"  ' Записываем в раздел  переменную
+'Call WriteParameters("PathSourceBase", Text7.Text)
+'Exit Sub
+'TC7_err:
+'    MsgBox Err.Number & "->" & Err.Description
+'    Resume Next
+'
+'End Sub
+
+
+'
+'Private Sub OpenText()
+'   Dim fld As dao.Field
+'   'ADODB.Field
+'   Dim strRow As String
+'   Dim strField As String
+'   Dim intPos As Integer'
+'
+'   'Set mrstUnits = New Recordset'
+'
+'   With mrstUnits
+'      ' Set CustomerID as the primary key.
+'      .Fields.Append "DateTimes", dbDate
+'      .Fields.Append "W1", dbDouble
+'      .Fields.Append "M1", dbDouble
+'      .Fields.Append "t1", dbDouble
+'      .Fields.Append "W2", dbDouble
+'      .Fields.Append "M2", dbDouble
+'      .Fields.Append "t2", dbDouble
+'      .Fields.Append "W3", dbDouble
+'      .Fields.Append "M3", dbDouble
+'      .Fields.Append "T", dbDouble
+'      .Fields.Append "Tp", dbDouble
+'      .Fields.Append "P1", dbDouble
+'      .Fields.Append "P2", dbDouble
+'      ' Use Keyset cursor type to allow updating records.
+'      '.CursorType = dbOpenKeyset
+'      '.LockType = LockOptimistic
+'      '.OpenRecordset
+'      '.Open
+'   End With''
+'
+'   Open "Tempbase.csv" For Input As #1'
+'
+'   Do Until EOF(1)
+'      Line Input #1, strRow
+'      With mrstUnits
+'         .AddNew
+'         For Each fld In .Fields
+'            ' If a tab delimiter is found, field text is to the
+'            ' left of the delimiter.
+'            If InStr(strRow, ";") <> 0 Then
+'               ' Move position to tab delimiter.
+'               intPos = InStr(strRow, ";")
+'               ' Assign field text to strField variable.
+'               strField = Left(strRow, intPos - 1)
+'            Else
+'               ' If a tab delimiter isn't found, field text is the
+'               ' last field in the row.
+'               strField = strRow
+'            End If'
+'
+'            ' Strip off quotation marks.
+'            If Left(strField, 1) = Chr(34) Then
+'               strField = Left(strField, Len(strField) - 1)
+'               strField = Right(strField, Len(strField) - 1)
+'            End If
+'            If IsDate(strField) Then fld.Value = strField
+'            If IsNumeric(strField) Then fld.Value = CDbl(strField)'
+'
+'            ' Strip off field value text from text row.
+'            strRow = Right(strRow, Len(strRow) - intPos)
+'            intPos = 0
+'
+'         Next
+'         .Update
+'         .MoveFirst
+'      End With
+'   Loop
+'   Close
+'
+'End Sub
+
+' Эта функция соединения с базой данных
+Public Sub OpenRecordset()
+Dim strXP As String, strMsg As String
+' соединение с базой данных
+On Error GoTo erComC
+
+    strXP = "\\" & mstrServer & "\" & mstrDataBase
+     Data2.DatabaseName = strXP
+    ' запрос служебной таблицы для работы пользователей
+    strMsg = mstrTable
+    Data2.RecordSource = strMsg
+    Data2.Refresh
+    If Not (Data2.Recordset.BOF And Data2.Recordset.EOF) Then
+        Data2.Recordset.Requery
+        'Data3.Recordset.Delete
+        With Data2.Recordset
+            .MoveFirst
+            Do While Not .EOF
+                If StrComp(Data3.Recordset.Fields(1), .Fields(1), vbTextCompare) <> 0 Then
+                    Data3.Recordset.AddNew
+                    Data3.Recordset.Fields(0) = .Fields(0)
+                    Data3.Recordset.Fields(1) = .Fields(1)
+                    Data3.Recordset.Fields(2) = .Fields(2)
+                    Data3.Recordset.Fields(3) = .Fields(3)
+                    Data3.Recordset.Update
+                End If
+                .MoveNext
+            Loop
+            Data3.Refresh
+        End With
+    End If
+    Data2.DatabaseName = ""
+    Data2.RecordSource = ""
+    Data2.Refresh
+Exit Sub
+erComC:
+ If Len(strMsg) > 0 Then writeLog (strMsg & ":" & protocol())
+End Sub
+' функция закрытия запросов и соединений
+'Public Sub CloseRecordset()
+'On Error GoTo erComm3
+'If Not mrstUnits Is Nothing Then
+'    If mrstUnits.State <> adStateClosed Then mrstUnits.Close
+'    Set mrstUnits = Nothing
+'End If
+'If Not mrstMain Is Nothing Then
+'    If mrstMain.State <> adStateClosed Then mrstMain.Close
+'    Set mrstMain = Nothing
+'End If
+'If Not mcnnMain Is Nothing Then
+'    If mcnnMain.State <> adStateClosed Then mcnnMain.Close
+'    Set mcnnMain = Nothing
+'End If
+'If Not mcnnUnits Is Nothing Then
+'    If mcnnUnits.State <> adStateClosed Then mcnnUnits.Close
+'    Set mcnnUnits = Nothing
+'End If
+'Exit Sub
+'erComm3:
+' writeLog ("close connect: " & protocol())
+' Resume Next
+'
+'End Sub
+'
+'передает подключение к БД в пользовательскую форму
+'Public Function PassConnection() As ADODB.Connection
+'Set PassConnection = mcnnMain
+'End Function
+'
+'
+'
+----------------------------------------
+The last thing you will discover in this article are operation time outs. When using the Winsock control, or in fact any Internet comms control, you need to be able to detect a time out. This occurs, for instance, when an application you are talking to stops responding while you are communicating with it. If you didn't watch for a time out, then you program would just sit around waiting for the other program to respond. The easiest way to watch for these is by using a timer control. 
+
+By setting the Interval property to a reasonable length, for instance 30000, then you can detect time outs. Again, use events to tell the user what's going on. You need to do this in the timers Timer event: 
+
+Private Sub Timer1_Timer()
+
+RaiseEvent TimeOut
+
+End Sub
+
+
+----------------------------------------
